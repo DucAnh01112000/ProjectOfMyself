@@ -2,7 +2,7 @@ name: hello world
 on:
   push:
     branches: [main]
-job:
+jobs:
   say-hello:
     runs-on: ubuntu-latest
     steps:
