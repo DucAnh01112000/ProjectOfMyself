@@ -15,6 +15,6 @@ public class TokenTests extends BaseTest {
         tokenListSteps.getListToken()
                 .validateStatusCode(HttpURLConnection.HTTP_OK)
                 .saveResponseObject(TokensModel.class);
-//        tokenListSteps.verifyResponseListToken(tokensModel);
+        tokenListSteps.verifyResponseListToken(tokensModel);
     }
 }
