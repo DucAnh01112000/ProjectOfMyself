@@ -5,7 +5,7 @@ import core.BaseApi;
 import io.qameta.allure.Step;
 
 
-import microservices.token.models.tokenList.TokensModel;
+import microservices.token.models.TokensModel;
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 

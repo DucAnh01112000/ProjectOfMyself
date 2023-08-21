@@ -1,4 +1,4 @@
-package microservices.token.models.tokenList;
+package microservices.token.models;
 
 import lombok.Data;
 
